@@ -1,11 +1,11 @@
-document.getElementById('button').addEventListener('click',  randomizer)
+document.getElementById('button').addEventListener('click', randomizer)
 // connects guess button to random function
 let randomNumber = 0
 let userGuess = 0
 // Sets random numbers and user guesses to variables
 function randomizer () {
   // convert the users number to an integer
-  userGuess= document.getElementById('input').value
+  userGuess = document.getElementById('input').value
   userGuess = parseInt(userGuess)
 
   // generate random number between 1 and 6
